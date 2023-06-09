@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 module "webserverModule" {
-  source = "github.com/obabaldbiyat/Custom-Nginx-server-Terraform_Azure/webserverModule"
+  source = "github.com/obabaldbiyat/Child_Custom-Nginx-server-Terraform_Azure_GitSourc"
   Resource_Group_name = "obab2_Prod_"
   location = "westeurope"
 }
